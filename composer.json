@@ -1,0 +1,19 @@
+{
+    "name": "bpx-network/bpx-beacon-php",
+    "description": "Official PHP wrapper for the BPX Beacon Client RPC API",
+    "type": "library",
+    "license": "Apache-2.0",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BPX\\": "src/"
+        }
+    },
+    "archive": {
+        "exclude": ["/examples"]
+    }
+}
